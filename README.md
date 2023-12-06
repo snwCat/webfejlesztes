@@ -1,7 +1,7 @@
 # webfejlesztes
 A webfejlesztés tantárgy beadandója
 1. oldal készítője: Kocsis Boglárka
-2. link: github url !
+2. link: https://snwcat.github.io/webfejlesztes/
 3. leírás: Ez a weboldal a Barbie filmet hivatott bemutatni. Elsősorban azoknak készült, akik már látták a filmet, de azoknak is érdekes lehet, akik még nem, mivel nem rendelkezik spoileres tartalommal.
 4. javascript: A 'szereplők' oldalon található a kód. Ha a szereplők képeire kattint a felhasználó, akkor az oldal háttérszíne megváltozik. (Illetve alatta a gallériához és a 'kérdőív' oldalon a formhoz is kellett használni.)
 5. fonttípus: Roboto Light 300, forrása: https://fonts.google.com/specimen/Roboto, mindenhol ezt használtam
