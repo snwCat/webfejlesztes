@@ -1,0 +1,245 @@
+/* BODY */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    background-color: #fea8d7;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+header img {
+    width: 10%;
+}
+
+/* NAV */
+.nav-container {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-container a {
+    flex: 1;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #fea8d7;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.nav-container a:hover {
+    background-color: #ff00a7;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-container a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#aktualis {
+    background-color: #ff00a7;
+}
+
+/* ARTICLE */
+article {
+    background-color: #fea8d7;
+    color: white;
+    border: 0px;
+    padding: 50px;
+    border-radius: 30px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.elso-bekezdes div img {
+    width: 500px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.elso-bekezdes .szoveg {
+    width: 40%;
+}
+
+div.elso-bekezdes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+.kiemelt {
+    width: 80%;
+    background-color: #ff00a7;
+    padding: 40px;
+    margin: auto;
+}
+
+
+.nincs-padding {
+    padding-bottom: 0px;
+}
+
+.kepek .kep1 img {
+    height: 210px;
+    transition: 0.5s;
+}
+
+.kepek .kep2 img {
+    height: 270px;
+    transition: 0.5s;
+}
+
+.kepek .kep1 img:hover {
+    transform: scale(1.2)
+}
+
+.kepek .kep2 img:hover {
+    transform: scale(1.2)
+}
+
+.kepek {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+.kozep {
+    text-align: center;
+}
+
+p.kozep {
+    padding-bottom: 15px;
+}
+
+.balra {
+    text-align: left;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+#kerdoiv-kep {
+    width: 360px;
+    padding: 20px;
+}
+
+.kerdoiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.kerdesek {
+    padding: 20px;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.galleria {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 50vw;
+}
+
+button {
+    width: 100px;
+    padding: 8px 16px 8px 16px;
+    margin-right: 8px;
+    background-color: #ff00a7;
+    border: none;
+}
+
+button:hover {
+    background-color: #c00981;
+}
+
+label.error {
+    color: #ff00a7;
+}
+
+/* FOOTER */
+footer {
+    background-color: #fea8d7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    /*tablet*/
+    div.elso-bekezdes div img {
+        width: 100%;
+    }
+
+    .elso-bekezdes .szoveg {
+        width: 100%;
+    }
+
+    .forditott :nth-child(1) {
+        order: 2;
+    }
+
+    .forditott :nth-child(2) {
+        order: 1;
+    }
+
+    .galleria {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+        height: 60vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    galleria {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100vw;
+        height: 100vw;
+    }
+}
